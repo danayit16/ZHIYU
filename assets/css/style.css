@@ -31,8 +31,8 @@ body {
     
 }
 .navbar {
-    border-bottom:#eef0f1 3px solid;
-    opacity: 0.8;
+    background:var(--primary-color);
+    background: linear-gradient(104deg, rgba(17,73,62,1) 44%, rgba(177,177,177,1) 100%);
 }   
 .navbar .nav-link {
    color: #fff!important;
@@ -68,7 +68,7 @@ body {
     border-radius: 5px;
 }
 
-#explore-section .fas,
+
 #share-head-section .fas {
     --primary-color:#11493E;
     --secondary-color:#b1b1b1;
@@ -115,8 +115,10 @@ body {
     /* filter: brightness(50%); */
 }
 #danu p{
+    background:var(--primary-color);
+    background: linear-gradient(104deg, rgba(17,73,62,1) 44%, rgba(177,177,177,1) 100%);
     font-size: 22px;
-    color: rgb(254, 252, 252);
+    color: rgb(2, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 #MAM p{
