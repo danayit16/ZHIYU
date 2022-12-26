@@ -35,7 +35,7 @@ body {
     background: linear-gradient(104deg, rgba(17,73,62,1) 44%, rgba(177,177,177,1) 100%);
 }   
 .navbar .nav-link {
-   color: #fff!important;
+   color:#fff!important;
 }
 
 
@@ -114,11 +114,11 @@ body {
     min-height: 700px;
     /* filter: brightness(50%); */
 }
-#danu p{
+#danu {
     background:var(--primary-color);
     background: linear-gradient(104deg, rgba(17,73,62,1) 44%, rgba(177,177,177,1) 100%);
     font-size: 22px;
-    color: rgb(2, 0, 0);
+    color: rgb(243, 239, 239);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 #MAM p{
@@ -133,4 +133,13 @@ body {
 
 #purple{
     font-size: 30px;
+    text-align: center;
+    text-decoration: solid;
+}
+#siya{
+    font-size: 16px;
+}
+#main-footer ul li{
+padding-top: 15px;
+list-style: none;
 }
