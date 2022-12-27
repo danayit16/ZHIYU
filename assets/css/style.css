@@ -64,7 +64,7 @@ body {
 }
 #home-section .fas {
     color: #f6f9fb;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/HM.jpg);
+    background:, url(../img/HM.jpg);
     padding: 5px;
     border-radius: 5px;
 }
