@@ -134,69 +134,75 @@
 
 
     <!-- FOOTER -->
-    <footer id="main-footer" class="bg-green">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="text-center py-4 col-md-4">
+    <footer id="main-footer" class="bg-gradient">
+      <div class="container">
+        <div class="row">
+         <div class="col-md-4"></div>
+           <div class="text-center py-4 col-md-4">
 
-                    <h3> ZHI YU HEALTH CARE</h3>
-                    <P>Copyright &copy; <span id="year"></span></P>
-                    <button class="btn btn-primary" data-toggle="modal" data-target="#contact modal">Contact us</button>
-                </div>
-                <div class="col-md-4"></div>
+            <h3> ZHI YU HEALTH CARE</h3>
+            <P>Copyright &copy; <span id="year"></span></P>
+            <button type="button" data-toggle="modal" data-target="#contact_modal">Contact us</button>
+          </div>
+          <div class="col-md-4"></div>
 
-            </div>
         </div>
+     </div>
     </footer>
 
     <!-- CONTACT MODAL -->
-    <div class="modal fade text-dark" id="ContactModal">
-        <div class="modal-dialog">
+    <div class="modal fade text-light" id="contact_modal">
+        <div class="modal-dialog"role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <div class="modal-title">Contact us</h5>
-                        <button class="close" data-dismiss="modal">
-                            <span>&times;</span>
+                <div class="modal-header bg-green">
+                    <div class="modal-title">Modal Title</h5>
+                        <button class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form>
+                </div>
+                    <div class="modal-body bg-green">
+                        <div class="row">
+                          <div class="col-md-6">
                             <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control">
                             </div>
+                          </div>
+                          <div class="col-md-6">
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control">
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control">
                             </div>
+                          </div>
+                          <div class="col-md-12">
                             <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control"></textarea>
+                              <label for="message">Message</label>
+                              <textarea class="form-control"></textarea>
                             </div>
-                        </form>
-                    </div>
-                    <text> Center </text>
-                    <div class="modal-footer"></div>
-                    <button class="btn btn-primary btn-block">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="modal-footer bg-green">
+                        <button type="button" class="btn btn">Save changes</button>
+                        <button type="button" class="btn btn" data-dismiss="modal">Close</button>
+                      </div>
                 </div>
             </div>
         </div>
 
 
 
-
-        <script src="http://code.jquery.com/jquery-3.3.1min.js"integrity="sha256-Fgpcb/KJQ1LNfOu91ta32o/NMZx1twRo8QtmKMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umdpopper.min,js"integrity="sha384-ZMP7rVo3mIyKV+2+9J3UJ46jBK0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootsrapdn.com/bootstrap/4.1.1/js/bootstrap.min.js"integrity="sha384-smHYKdLADwkXOn1EmNlEmNqK/HfnucbVRZyYmZ4qpea6sjB/pTJ0euyQp0MK8ck+5T"crossorigin="anonymous"></script>
-</body>
-<script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getfullyear());
-
-    // init Scrollspy
-    $('body').scrollspy({ target: 'main-nav'});
-  </script>
-</body>
-
-</html>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+          // Get the current year for the copyright
+          $('#year').text(new Date().getfullyear());
+      
+          // init Scrollspy
+          $('body').scrollspy({ target: 'main-nav'});
+      </script>
+      </body>
+      
+      </html>
