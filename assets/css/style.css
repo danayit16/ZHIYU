@@ -149,3 +149,7 @@ list-style: none;
     font-weight: bold;
     forced-color:white;
 }
+.sweet-potato img{
+    width: 300px;
+    height: 190px;
+}
