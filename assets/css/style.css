@@ -32,7 +32,6 @@ body {
 }
 .navbar {
     background:var(--primary-color);
-    background: linear-gradient(104deg, rgba(17,73,62,1) 44%, rgba(177,177,177,1) 100%);
 }   
 .navbar .nav-link {
    color:#fff!important;
@@ -157,4 +156,8 @@ list-style: none;
     color: #000;
     box-shadow: 0 0 30px rgba(245, 234, 234, 0.753);
     padding-top: 15px;
+}
+.info-box  h1{
+ font-weight: 700;
+ color: red;
 }
