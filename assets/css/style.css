@@ -153,3 +153,8 @@ list-style: none;
     width: 300px;
     height: 190px;
 }
+.info-box{
+    color: #000;
+    box-shadow: 0 0 30px rgba(245, 234, 234, 0.753);
+    padding-top: 15px;
+}
