@@ -159,5 +159,13 @@ list-style: none;
 }
 .info-box  h1{
  font-weight: 700;
- color: red;
+ color: #11493E;
+}
+.info-box h2{
+    font-weight: 700;
+    color: #11493E;
+}
+.info-box h3{
+    font-weight: 700;
+    color:#11493E;
 }
