@@ -169,3 +169,6 @@ list-style: none;
     font-weight: 700;
     color:#11493E;
 }
+.navbar{
+    color: var(--primary-color);
+}
