@@ -8,6 +8,9 @@ body {
     /* background: rgb(68, 184, 81);  */
     color: rgb(245, 241, 241);
 }
+a{
+    color: var(--primary-color);
+}
 /* Color  */
 .primary-color{
     color: var(--primary-color);
